@@ -1,0 +1,52 @@
+{
+  "name": "react-native-truncation-text",
+  "version": "1.0.0",
+  "description": "A Text extension React Native component that includes onTruncationChange to enable reading more",
+  "main": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --clean --format esm --legacy-output --sourcemap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BooYeu/react-native-truncation-text.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-truncation-text",
+    "react-native-read-more-text",
+    "text",
+    "read more",
+    "truncate",
+    "truncation"
+  ],
+  "author": "liulirui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BooYeu/react-native-truncation-text/issues"
+  },
+  "homepage": "https://github.com/BooYeu/react-native-truncation-text#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "8.22",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^2.8.3",
+    "react": "*",
+    "react-native": "*",
+    "react-native-builder-bob": "^0.20.4",
+    "tsup": "^6.5.0",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
