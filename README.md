@@ -10,7 +10,7 @@ npm install react-native-truncation-text --save
 ```javascript
 import React, { memo, useCallback, useState } from 'react';
 import { View, Pressable, Text } from 'react-native';
-import TruncationText from 'react-native-truncation-text';
+import { TruncationText } from 'react-native-truncation-text';
 
 const BATCH_NUMBER_OF_LINES = 10;
 
